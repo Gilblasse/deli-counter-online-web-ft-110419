@@ -6,6 +6,6 @@ def line(katz_deli)
    puts "The line is currently empty."
  else
     line = katz_deli.each_with_index.map {|name,i| "#{i + 1}. #{name}"}
-    
+    "The line is currently: #{line.join(' ')}"
  end
 end
