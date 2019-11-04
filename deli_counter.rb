@@ -6,3 +6,4 @@ def line(katz_deli)
   active_line = "The line is currently: #{line.join(' ')}"
   puts katz_deli.size == 0 ? empty_line : active_line
 end
+
