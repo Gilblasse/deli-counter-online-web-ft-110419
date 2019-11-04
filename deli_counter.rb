@@ -1,3 +1,5 @@
 require 'pry'
 
-def
+def line(katz_deli)
+  
+end
