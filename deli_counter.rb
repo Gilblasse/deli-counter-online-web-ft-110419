@@ -5,6 +5,6 @@ line = katz_deli.each_with_index.map {|name,i| "#{i + 1}. #{name}"}
 empty_line = "The line is currently empty."
 active_line = "The line is currently: #{line.join(' ')}"
 
-katz_deli.size == 0 ? puts empty_line : puts active_line
+puts katz_deli.size == 0 ? empty_line : active_line
 
 end
